@@ -22,8 +22,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 # bootstrap
 gem 'bootstrap-sass'
-# mySql gem
-gem 'mysql'
+
 
 group :development, :test do
 	# Use sqlite3 as the database for Active Record
@@ -33,6 +32,8 @@ end
 group :production do
 	gem 'pg'
 	gem 'rails_12factor'
+	# mySql gem
+	gem 'mysql'
 end
 
 
