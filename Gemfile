@@ -22,6 +22,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 # bootstrap
 gem 'bootstrap-sass'
+# Devise, used for user authentication
+gem 'devise'
 
 
 group :development, :test do

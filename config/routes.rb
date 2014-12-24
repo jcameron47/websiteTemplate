@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   #get 'pages/home'
   root 'pages#home'   #goes to the main home page
   get "about" => "pages#about"    #about page route
