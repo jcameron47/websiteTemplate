@@ -5135,3 +5135,673 @@ Processing by Devise::RegistrationsController#new as HTML
   Rendered devise/registrations/new.html.erb within layouts/application (9.0ms)
   Rendered layouts/_header.html.erb (0.0ms)
 Completed 200 OK in 181ms (Views: 180.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2014-12-24 15:31:09 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (53.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 425ms (Views: 386.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/Bootstrap_and_customization-82bdb761fede94f1936a2fe865564796.css?body=1" for ::1 at 2014-12-24 15:31:10 -0800
+
+
+Started GET "/assets/pages-d1925b6ce55f1f1be3b31f07db4c1ed1.css?body=1" for ::1 at 2014-12-24 15:31:10 -0800
+
+
+Started GET "/assets/application-c32d07c9e66ba42e3124360e28c46c56.css?body=1" for ::1 at 2014-12-24 15:31:10 -0800
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for ::1 at 2014-12-24 15:31:10 -0800
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for ::1 at 2014-12-24 15:31:10 -0800
+
+
+Started GET "/assets/bootstrap-5efd6ecba3bbec6e39f6c485b7e6030e.js?body=1" for ::1 at 2014-12-24 15:31:10 -0800
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2014-12-24 15:31:10 -0800
+
+
+Started GET "/assets/pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2014-12-24 15:31:10 -0800
+
+
+Started GET "/assets/application-6ae173fd1779e8ce5c91fb99a832e799.js?body=1" for ::1 at 2014-12-24 15:31:10 -0800
+
+
+Started GET "/" for ::1 at 2014-12-24 15:35:34 -0800
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 174ms (Views: 173.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2014-12-24 15:35:36 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (32.2ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 205ms (Views: 189.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2014-12-24 15:40:34 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (33.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 235ms (Views: 219.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Bootstrap_and_customization-82bdb761fede94f1936a2fe865564796.css?body=1" for ::1 at 2014-12-24 15:40:34 -0800
+
+
+Started GET "/assets/pages-d1925b6ce55f1f1be3b31f07db4c1ed1.css?body=1" for ::1 at 2014-12-24 15:40:34 -0800
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for ::1 at 2014-12-24 15:40:34 -0800
+
+
+Started GET "/assets/bootstrap-5efd6ecba3bbec6e39f6c485b7e6030e.js?body=1" for ::1 at 2014-12-24 15:40:34 -0800
+
+
+Started GET "/assets/application-c32d07c9e66ba42e3124360e28c46c56.css?body=1" for ::1 at 2014-12-24 15:40:34 -0800
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for ::1 at 2014-12-24 15:40:34 -0800
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2014-12-24 15:40:34 -0800
+
+
+Started GET "/assets/pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2014-12-24 15:40:34 -0800
+
+
+Started GET "/assets/application-6ae173fd1779e8ce5c91fb99a832e799.js?body=1" for ::1 at 2014-12-24 15:40:34 -0800
+
+
+Started GET "/" for ::1 at 2014-12-24 15:40:35 -0800
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 187ms (Views: 187.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2014-12-24 15:40:56 -0800
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 246ms (Views: 230.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2014-12-24 15:41:47 -0800
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 179ms (Views: 177.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Bootstrap_and_customization-82bdb761fede94f1936a2fe865564796.css?body=1" for ::1 at 2014-12-24 15:41:48 -0800
+
+
+Started GET "/assets/application-c32d07c9e66ba42e3124360e28c46c56.css?body=1" for ::1 at 2014-12-24 15:41:48 -0800
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for ::1 at 2014-12-24 15:41:48 -0800
+
+
+Started GET "/assets/pages-d1925b6ce55f1f1be3b31f07db4c1ed1.css?body=1" for ::1 at 2014-12-24 15:41:48 -0800
+
+
+Started GET "/assets/bootstrap-5efd6ecba3bbec6e39f6c485b7e6030e.js?body=1" for ::1 at 2014-12-24 15:41:48 -0800
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for ::1 at 2014-12-24 15:41:48 -0800
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2014-12-24 15:41:48 -0800
+
+
+Started GET "/assets/pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2014-12-24 15:41:48 -0800
+
+
+Started GET "/assets/application-6ae173fd1779e8ce5c91fb99a832e799.js?body=1" for ::1 at 2014-12-24 15:41:48 -0800
+
+
+Started GET "/" for ::1 at 2014-12-24 15:47:06 -0800
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 206ms (Views: 205.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Bootstrap_and_customization-82bdb761fede94f1936a2fe865564796.css?body=1" for ::1 at 2014-12-24 15:47:06 -0800
+
+
+Started GET "/assets/application-c32d07c9e66ba42e3124360e28c46c56.css?body=1" for ::1 at 2014-12-24 15:47:06 -0800
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for ::1 at 2014-12-24 15:47:06 -0800
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for ::1 at 2014-12-24 15:47:06 -0800
+
+
+Started GET "/assets/bootstrap-5efd6ecba3bbec6e39f6c485b7e6030e.js?body=1" for ::1 at 2014-12-24 15:47:06 -0800
+
+
+Started GET "/assets/pages-d1925b6ce55f1f1be3b31f07db4c1ed1.css?body=1" for ::1 at 2014-12-24 15:47:06 -0800
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2014-12-24 15:47:06 -0800
+
+
+Started GET "/assets/pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2014-12-24 15:47:06 -0800
+
+
+Started GET "/assets/application-6ae173fd1779e8ce5c91fb99a832e799.js?body=1" for ::1 at 2014-12-24 15:47:06 -0800
+
+
+Started GET "/users/sign_up" for ::1 at 2014-12-24 15:47:07 -0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 166ms (Views: 165.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2014-12-24 15:47:33 -0800
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mMk3/XsF5tEX32ko1QgveiqoQujAh+OxuRLLOuXXWZWwnsqoHQjUQosYFIfo42OViuLXn42m9BdF3VLykASx7A==", "user"=>{"email"=>"jacprogrammer@hotmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'jacprogrammer@hotmail.com' LIMIT 1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "jacprogrammer@hotmail.com"], ["encrypted_password", "$2a$10$.tNFACsPtRJzJHeOlJL90OZ.0IoUVMSuk9QPUtit/Pw2CPcxQ6aB6"], ["created_at", "2014-12-24 23:47:34.292345"], ["updated_at", "2014-12-24 23:47:34.292345"]]
+  [1m[36m (110.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2014-12-24 23:47:34.408352"], ["current_sign_in_at", "2014-12-24 23:47:34.408352"], ["last_sign_in_ip", "::1"], ["current_sign_in_ip", "::1"], ["sign_in_count", 1], ["updated_at", "2014-12-24 23:47:34.411352"], ["id", 1]]
+  [1m[35m (169.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 617ms (ActiveRecord: 282.0ms)
+
+
+Started GET "/" for ::1 at 2014-12-24 15:47:34 -0800
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered pages/home.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 167ms (Views: 166.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-c32d07c9e66ba42e3124360e28c46c56.css?body=1" for ::1 at 2014-12-24 15:47:34 -0800
+
+
+Started GET "/assets/pages-d1925b6ce55f1f1be3b31f07db4c1ed1.css?body=1" for ::1 at 2014-12-24 15:47:34 -0800
+
+
+Started GET "/assets/Bootstrap_and_customization-82bdb761fede94f1936a2fe865564796.css?body=1" for ::1 at 2014-12-24 15:47:34 -0800
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for ::1 at 2014-12-24 15:47:34 -0800
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for ::1 at 2014-12-24 15:47:34 -0800
+
+
+Started GET "/assets/bootstrap-5efd6ecba3bbec6e39f6c485b7e6030e.js?body=1" for ::1 at 2014-12-24 15:47:34 -0800
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2014-12-24 15:47:34 -0800
+
+
+Started GET "/assets/pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2014-12-24 15:47:34 -0800
+
+
+Started GET "/assets/application-6ae173fd1779e8ce5c91fb99a832e799.js?body=1" for ::1 at 2014-12-24 15:47:34 -0800
+
+
+Started GET "/" for ::1 at 2014-12-24 15:47:38 -0800
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 165ms (Views: 165.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2014-12-24 15:48:04 -0800
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered pages/home.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 204ms (Views: 204.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2014-12-24 15:49:18 -0800
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered pages/home.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 230ms (Views: 230.0ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2014-12-24 15:49:20 -0800
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"VlQtojiKUQuO4rHw8ftJYucVVrfYcV5RxSGHsHWCk4R+A9D3XodjmBIlzF/MEAWNR1/DwJVQSfc57h54AFF7/Q=="}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 63ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2014-12-24 15:49:20 -0800
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 173ms (Views: 172.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Bootstrap_and_customization-82bdb761fede94f1936a2fe865564796.css?body=1" for ::1 at 2014-12-24 15:49:20 -0800
+
+
+Started GET "/assets/pages-d1925b6ce55f1f1be3b31f07db4c1ed1.css?body=1" for ::1 at 2014-12-24 15:49:20 -0800
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for ::1 at 2014-12-24 15:49:20 -0800
+
+
+Started GET "/assets/bootstrap-5efd6ecba3bbec6e39f6c485b7e6030e.js?body=1" for ::1 at 2014-12-24 15:49:20 -0800
+
+
+Started GET "/assets/application-c32d07c9e66ba42e3124360e28c46c56.css?body=1" for ::1 at 2014-12-24 15:49:20 -0800
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for ::1 at 2014-12-24 15:49:20 -0800
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2014-12-24 15:49:20 -0800
+
+
+Started GET "/assets/pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2014-12-24 15:49:20 -0800
+
+
+Started GET "/assets/application-6ae173fd1779e8ce5c91fb99a832e799.js?body=1" for ::1 at 2014-12-24 15:49:20 -0800
+
+
+Started GET "/users/sign_in" for ::1 at 2014-12-24 15:49:21 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 180ms (Views: 179.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2014-12-24 15:57:02 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 181ms (Views: 179.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-c32d07c9e66ba42e3124360e28c46c56.css?body=1" for ::1 at 2014-12-24 15:57:02 -0800
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for ::1 at 2014-12-24 15:57:02 -0800
+
+
+Started GET "/assets/Bootstrap_and_customization-82bdb761fede94f1936a2fe865564796.css?body=1" for ::1 at 2014-12-24 15:57:02 -0800
+
+
+Started GET "/assets/bootstrap-5efd6ecba3bbec6e39f6c485b7e6030e.js?body=1" for ::1 at 2014-12-24 15:57:02 -0800
+
+
+Started GET "/assets/pages-d1925b6ce55f1f1be3b31f07db4c1ed1.css?body=1" for ::1 at 2014-12-24 15:57:02 -0800
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for ::1 at 2014-12-24 15:57:02 -0800
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2014-12-24 15:57:02 -0800
+
+
+Started GET "/assets/pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2014-12-24 15:57:02 -0800
+
+
+Started GET "/assets/application-6ae173fd1779e8ce5c91fb99a832e799.js?body=1" for ::1 at 2014-12-24 15:57:02 -0800
+
+
+Started GET "/" for ::1 at 2014-12-24 15:57:04 -0800
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 172ms (Views: 171.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2014-12-24 15:57:06 -0800
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 156ms (Views: 156.0ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2014-12-24 15:57:10 -0800
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"uOgtZUra6/ajAfDtKGru50EscoRi+A0MwuY1glbkJOuyU0QxS3CSHhk06T02aaukUxOfxUBZV7CxQzgTjER0eg=="}
+Redirected to http://localhost:3000/
+Filter chain halted as :verify_signed_out_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2014-12-24 15:57:10 -0800
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 220ms (Views: 220.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-c32d07c9e66ba42e3124360e28c46c56.css?body=1" for ::1 at 2014-12-24 15:57:11 -0800
+
+
+Started GET "/assets/pages-d1925b6ce55f1f1be3b31f07db4c1ed1.css?body=1" for ::1 at 2014-12-24 15:57:11 -0800
+
+
+Started GET "/assets/Bootstrap_and_customization-82bdb761fede94f1936a2fe865564796.css?body=1" for ::1 at 2014-12-24 15:57:11 -0800
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for ::1 at 2014-12-24 15:57:11 -0800
+
+
+Started GET "/assets/bootstrap-5efd6ecba3bbec6e39f6c485b7e6030e.js?body=1" for ::1 at 2014-12-24 15:57:11 -0800
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for ::1 at 2014-12-24 15:57:11 -0800
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2014-12-24 15:57:11 -0800
+
+
+Started GET "/assets/pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2014-12-24 15:57:11 -0800
+
+
+Started GET "/assets/application-6ae173fd1779e8ce5c91fb99a832e799.js?body=1" for ::1 at 2014-12-24 15:57:11 -0800
+
+
+Started GET "/users/sign_in" for ::1 at 2014-12-24 15:57:14 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 165ms (Views: 165.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2014-12-24 15:57:18 -0800
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 172ms (Views: 171.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2014-12-24 15:58:36 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 170ms (Views: 169.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2014-12-24 16:03:09 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 208ms (Views: 206.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-5efd6ecba3bbec6e39f6c485b7e6030e.js?body=1" for ::1 at 2014-12-24 16:03:09 -0800
+
+
+Started GET "/assets/pages-d1925b6ce55f1f1be3b31f07db4c1ed1.css?body=1" for ::1 at 2014-12-24 16:03:09 -0800
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for ::1 at 2014-12-24 16:03:09 -0800
+
+
+Started GET "/assets/application-c32d07c9e66ba42e3124360e28c46c56.css?body=1" for ::1 at 2014-12-24 16:03:09 -0800
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for ::1 at 2014-12-24 16:03:09 -0800
+
+
+Started GET "/assets/Bootstrap_and_customization-82bdb761fede94f1936a2fe865564796.css?body=1" for ::1 at 2014-12-24 16:03:09 -0800
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2014-12-24 16:03:09 -0800
+
+
+Started GET "/assets/pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2014-12-24 16:03:09 -0800
+
+
+Started GET "/assets/application-6ae173fd1779e8ce5c91fb99a832e799.js?body=1" for ::1 at 2014-12-24 16:03:09 -0800
+
+
+Started GET "/" for ::1 at 2014-12-24 16:03:24 -0800
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 174ms (Views: 158.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2014-12-24 16:03:27 -0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (31.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 264ms (Views: 263.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2014-12-24 16:11:10 -0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (19.6ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 189ms (Views: 189.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages-d1925b6ce55f1f1be3b31f07db4c1ed1.css?body=1" for ::1 at 2014-12-24 16:11:10 -0800
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for ::1 at 2014-12-24 16:11:10 -0800
+
+
+Started GET "/assets/bootstrap-5efd6ecba3bbec6e39f6c485b7e6030e.js?body=1" for ::1 at 2014-12-24 16:11:10 -0800
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for ::1 at 2014-12-24 16:11:10 -0800
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2014-12-24 16:11:10 -0800
+
+
+Started GET "/assets/application-c32d07c9e66ba42e3124360e28c46c56.css?body=1" for ::1 at 2014-12-24 16:11:10 -0800
+
+
+Started GET "/assets/Bootstrap_and_customization-82bdb761fede94f1936a2fe865564796.css?body=1" for ::1 at 2014-12-24 16:11:10 -0800
+
+
+Started GET "/assets/pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2014-12-24 16:11:10 -0800
+
+
+Started GET "/assets/application-6ae173fd1779e8ce5c91fb99a832e799.js?body=1" for ::1 at 2014-12-24 16:11:10 -0800
+
+
+Started GET "/" for ::1 at 2014-12-24 16:11:44 -0800
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 207ms (Views: 206.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2014-12-24 16:11:45 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (15.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 177ms (Views: 174.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2014-12-24 16:11:55 -0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Yv9pJ52jN++wNH/PCDioEX7bhZ5FzMlusbTGwWwcKJVoRABznAlOBwoBZh8WO+1SbORo32dtk9LCEctQtrx4BA==", "user"=>{"email"=>"jacprogrammer@hotmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "jacprogrammer@hotmail.com"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  UPDATE "users" SET "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["current_sign_in_at", "2014-12-25 00:11:55.759620"], ["sign_in_count", 2], ["updated_at", "2014-12-25 00:11:55.761620"], ["id", 1]]
+  [1m[36m (70.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 228ms (ActiveRecord: 71.0ms)
+
+
+Started GET "/" for ::1 at 2014-12-24 16:11:55 -0800
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (3.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered pages/home.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 166ms (Views: 163.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/Bootstrap_and_customization-82bdb761fede94f1936a2fe865564796.css?body=1" for ::1 at 2014-12-24 16:11:56 -0800
+
+
+Started GET "/assets/application-c32d07c9e66ba42e3124360e28c46c56.css?body=1" for ::1 at 2014-12-24 16:11:56 -0800
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for ::1 at 2014-12-24 16:11:56 -0800
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2014-12-24 16:11:56 -0800
+
+
+Started GET "/assets/pages-d1925b6ce55f1f1be3b31f07db4c1ed1.css?body=1" for ::1 at 2014-12-24 16:11:56 -0800
+
+
+Started GET "/assets/bootstrap-5efd6ecba3bbec6e39f6c485b7e6030e.js?body=1" for ::1 at 2014-12-24 16:11:56 -0800
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for ::1 at 2014-12-24 16:11:56 -0800
+
+
+Started GET "/assets/pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2014-12-24 16:11:56 -0800
+
+
+Started GET "/assets/application-6ae173fd1779e8ce5c91fb99a832e799.js?body=1" for ::1 at 2014-12-24 16:11:56 -0800
+
+
+Started GET "/" for ::1 at 2014-12-24 16:12:51 -0800
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered pages/home.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 158ms (Views: 157.8ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2014-12-24 16:12:53 -0800
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ErI+9G8k1YrP0blGCRI55wBlFQt2nC+0U0X9CkNi9/uGXoDP1J/Vj1zPNXNhSYb0fejK4Viedy83sdb07WY9dw=="}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2014-12-24 16:12:53 -0800
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 160ms (Views: 160.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Bootstrap_and_customization-82bdb761fede94f1936a2fe865564796.css?body=1" for ::1 at 2014-12-24 16:12:53 -0800
+
+
+Started GET "/assets/application-c32d07c9e66ba42e3124360e28c46c56.css?body=1" for ::1 at 2014-12-24 16:12:53 -0800
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for ::1 at 2014-12-24 16:12:53 -0800
+
+
+Started GET "/assets/pages-d1925b6ce55f1f1be3b31f07db4c1ed1.css?body=1" for ::1 at 2014-12-24 16:12:53 -0800
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for ::1 at 2014-12-24 16:12:53 -0800
+
+
+Started GET "/assets/bootstrap-5efd6ecba3bbec6e39f6c485b7e6030e.js?body=1" for ::1 at 2014-12-24 16:12:53 -0800
+
+
+Started GET "/assets/pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2014-12-24 16:12:53 -0800
+
+
+Started GET "/assets/application-6ae173fd1779e8ce5c91fb99a832e799.js?body=1" for ::1 at 2014-12-24 16:12:53 -0800
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2014-12-24 16:12:53 -0800
+
+
+Started GET "/users/sign_in" for ::1 at 2014-12-24 16:19:44 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_header.html.erb (10.0ms)
+Completed 200 OK in 223ms (Views: 221.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2014-12-24 16:19:52 -0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S5P7SujQ9HWPT5LvoDKRXHGZKGlspmsaT2D376AgzQoCBiSLF/9d2VjTzGenAaZmFfDaGGMryH1IXngS65329w==", "user"=>{"email"=>"jacprogrammer@hotmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "jacprogrammer@hotmail.com"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mUPDATE "users" SET "remember_created_at" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["remember_created_at", "2014-12-25 00:19:52.579270"], ["updated_at", "2014-12-25 00:19:52.580270"], ["id", 1]]
+  [1m[35m (79.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_sign_in_at", "2014-12-25 00:11:55.759620"], ["current_sign_in_at", "2014-12-25 00:19:52.672275"], ["sign_in_count", 3], ["updated_at", "2014-12-25 00:19:52.677276"], ["id", 1]]
+  [1m[36m (74.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 283ms (ActiveRecord: 155.0ms)
+
+
+Started GET "/" for ::1 at 2014-12-24 16:19:52 -0800
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 212ms (Views: 211.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Bootstrap_and_customization-82bdb761fede94f1936a2fe865564796.css?body=1" for ::1 at 2014-12-24 16:19:53 -0800
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2014-12-24 16:19:53 -0800
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for ::1 at 2014-12-24 16:19:53 -0800
+
+
+Started GET "/assets/pages-d1925b6ce55f1f1be3b31f07db4c1ed1.css?body=1" for ::1 at 2014-12-24 16:19:53 -0800
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for ::1 at 2014-12-24 16:19:53 -0800
+
+
+Started GET "/assets/application-c32d07c9e66ba42e3124360e28c46c56.css?body=1" for ::1 at 2014-12-24 16:19:53 -0800
+
+
+Started GET "/assets/bootstrap-5efd6ecba3bbec6e39f6c485b7e6030e.js?body=1" for ::1 at 2014-12-24 16:19:53 -0800
+
+
+Started GET "/assets/pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2014-12-24 16:19:53 -0800
+
+
+Started GET "/assets/application-6ae173fd1779e8ce5c91fb99a832e799.js?body=1" for ::1 at 2014-12-24 16:19:53 -0800
